@@ -1,10 +1,12 @@
 # 🔐 PassOp – Secure Password Manager  
+
 PassOp is a modern and minimal **MERN-based Password Manager** where you can securely store, manage, and access your credentials at one place.  
 Built with **React + Tailwind** on the frontend and **Node.js + Express + MongoDB** on the backend.
 
 ---
 
 ## 🚀 Features
+
 ✅ Add new credentials (website, username, password)  
 
 📝 Edit saved entries  
@@ -20,6 +22,7 @@ Built with **React + Tailwind** on the frontend and **Node.js + Express + MongoD
 ---
 
 ## 🛠️ Tech Stack
+
 - **Frontend:** React (Hooks & Functional Components), Tailwind CSS  
 - **Backend:** Node.js, Express.js  
 - **Database:** MongoDB (Mongoose ODM)  
@@ -27,23 +30,26 @@ Built with **React + Tailwind** on the frontend and **Node.js + Express + MongoD
 
 ---
 
-## 📸 Preview  
+## 📸 Preview
 
-### 1. Adding Passwords
-![Home](./screenshots/Home.png)  
+### ➕ Adding Password
 
-### 2. Editing Existing Passwords
-![Add Credential](./screenshots/Add.png)  
+![Adding Password](Screenshots/Adding.gif)
 
-### 3. Deleting Passwords
-![List](./screenshots/List.png)  
+### ❌ Deleting Password
 
-### 4. Responsive View  
-![Responsive](./screenshots/Responsive.png)  
+![Deleting Password](Screenshots/Delete.gif)
 
----
+### ✏️ Editing Password
+
+![Editing Password](Screenshots/Editing.gif)
+
+### 📱 Responsive Design
+
+![Responsive Design](Screenshots/Responsive.png)
 
 ## 🔧 Future Improvements
+
 - User authentication & JWT login system  
 - Search & filter credentials  
 - Dark mode toggle  
@@ -53,6 +59,7 @@ Built with **React + Tailwind** on the frontend and **Node.js + Express + MongoD
 ---
 
 ## 🤝 Contributing
+
 Contributions are welcome!  
 1. Fork the repo  
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)  
