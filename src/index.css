@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mx-cent{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.mix{
+    border: 2px solid green;
+    outline: 2px solid black;
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+
+.mix1{
+    border: 2px solid slategray;
+    outline: 2px solid black;
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+
+.mix2{
+    border: 2px solid green;
+    outline: 2px solid white;
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+
+@layer components {
+    .mycontainer{
+        @apply container px-20 py-5 mx-cent w-10/12;
+    }
+}
+

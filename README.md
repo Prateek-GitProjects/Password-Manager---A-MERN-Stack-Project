@@ -1,72 +1,12 @@
-# 🔐 PassOp – Secure Password Manager  
+# React + Vite
 
-PassOp is a modern and minimal **MERN-based Password Manager** where you can securely store, manage, and access your credentials at one place.  
-Built with **React + Tailwind** on the frontend and **Node.js + Express + MongoDB** on the backend.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-✅ Add new credentials (website, username, password)  
+## Expanding the ESLint configuration
 
-📝 Edit saved entries  
-
-❌ Delete credentials with confirmation prompt  
-
-👀 Toggle visibility of saved passwords  
-
-🔒 Encrypt sensitive data before storing in DB  
-
-📱 Fully responsive design for all screen sizes  
-
----
-
-## 🛠️ Tech Stack
-
-- **Frontend:** React (Hooks & Functional Components), Tailwind CSS  
-- **Backend:** Node.js, Express.js  
-- **Database:** MongoDB (Mongoose ODM)  
-- **Other:** UUID for IDs, bcrypt/crypto for security  
-
----
-
-## 📸 Preview
-
-### ➕ Adding Password
-
-![Adding Password](Screenshots/Adding.gif)
-
-### ❌ Deleting Password
-
-![Deleting Password](Screenshots/Delete.gif)
-
-### ✏️ Editing Password
-
-![Editing Password](Screenshots/Editing.gif)
-
-### 📱 Responsive Design
-
-![Responsive Design](Screenshots/Responsive.png)
-
-## 🔧 Future Improvements
-
-- User authentication & JWT login system  
-- Search & filter credentials  
-- Dark mode toggle  
-- Password generator tool  
-- Export / Import credentials  
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!  
-1. Fork the repo  
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)  
-3. Commit changes (`git commit -m 'Add some AmazingFeature'`)  
-4. Push to branch (`git push origin feature/AmazingFeature`)  
-5. Open a pull request  
-
----
-
-⭐ If you like this project, don’t forget to **star the repo**!
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
